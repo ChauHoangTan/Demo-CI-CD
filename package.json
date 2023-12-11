@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://chauhoangtan.github.io/",
+  "homepage": "https://chauhoangtan.github.io/Demo-CI-CD",
   "eslintConfig": {
     "extends": [
       "react-app",
