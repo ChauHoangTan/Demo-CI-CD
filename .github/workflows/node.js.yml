@@ -17,10 +17,13 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x, 18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
+    - name: Set up Git
+      run: |
+        git config --global user.email "dinhvanguyen810@gmail.com"
+        git config --global user.name "Vawnndv"
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
