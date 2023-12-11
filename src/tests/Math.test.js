@@ -12,3 +12,7 @@ test('adds -1 + 1 to equal 0', () => {
 test('adds -3 + -1 to equal -4', () => {
     expect(add(-3, -1)).toBe(-4);
   });
+
+  test('adds 3 + -1 to equal 2', () => {
+    expect(add(3, -1)).toBe(2);
+  });
